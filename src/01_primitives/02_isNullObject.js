@@ -5,8 +5,8 @@
  * @returns {boolean} - True if the variable is null and typeof returns 'object'.
  */
 function isNullObject(variable) {
-    // Your code here
-  }
+    return variable === null;
+}
   
-  module.exports = isNullObject;
+module.exports = isNullObject;
   
