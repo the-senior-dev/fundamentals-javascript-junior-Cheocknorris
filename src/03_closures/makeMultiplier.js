@@ -7,9 +7,8 @@
  * @returns {Function} - A function that multiplies its argument by multiplier.
  */
 function makeMultiplier(multiplier) {
-  // Your code here
   return function(x) {
-    // Your code here
+    return x * multiplier;
   }
 }
 
