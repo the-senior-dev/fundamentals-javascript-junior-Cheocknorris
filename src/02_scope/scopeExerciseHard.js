@@ -1,11 +1,13 @@
 // You can only change the scope of variables; no other changes are allowed.
 function mainFunction() {
     let x = 10;
+    let y;
+    let z;
   
     function firstFunction() {
-      let y = 5;
+      y = 5;
       if (true) {
-        let z = 2;
+        z = 2;
         return y * z;
       }
     }
