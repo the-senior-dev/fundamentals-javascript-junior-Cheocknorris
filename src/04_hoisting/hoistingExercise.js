@@ -1,7 +1,9 @@
 // Fix the code below to make the function return 12
 function calculate() {
-    a = 4;
     let a;
+    let b;
+    
+    a = 4;
     b = 3;
     return a * b; // Should return 12
 }
